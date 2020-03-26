@@ -36,14 +36,5 @@ for i in range(rows):
             else:
                 dp_matrix_max[i][j] = max(a[i][j]*dp_matrix_max[i-1][j] , a[i][j]*dp_matrix_max[i][j-1])
                 dp_matrix_min[i][j] = min(a[i][j]*dp_matrix_min[i-1][j] , a[i][j]*dp_matrix_min[i][j-1])
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                                
+print (dp_matrix_max[-1][-1])

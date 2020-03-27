@@ -1,3 +1,6 @@
+# Given an unsorted array, find the length of the longest sequence of
+# consecutive numbers in the array.
+
 a = [5,5,3,1]
 max_len = 0
 

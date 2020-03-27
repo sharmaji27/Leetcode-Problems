@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 26 09:41:08 2020
-
-@author: sharma ji
-"""
+# Given an array of integers where each value 1 <= x <= len(array), write a
+# function that finds all the duplicates in the array.
 
 a = [3,3,3,3]
 result = set()

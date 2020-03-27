@@ -1,3 +1,6 @@
+# Given a matrix, find the path from top left to bottom right with the greatest
+# product by moving only down and right.
+
 a = [[1,2,3],
      [4,5,6],
      [7,8,9]]

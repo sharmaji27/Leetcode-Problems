@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
+# Given a list of items with values and weights, as well as a max weight, find the
+# maximum value you can generate from items where the sum of the weights is less than
+# the max.
 
 wt = [5,3,4,2]
 value = [60,50,70,30]

@@ -25,7 +25,7 @@ Constraints:
 
 0 <= s.length <= 100
 0 <= t.length <= 10^4
-Both strings consists only of lowercase characters.
+Both strings consists only of lowercase characters .
 '''
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:

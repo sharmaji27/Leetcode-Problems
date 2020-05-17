@@ -35,6 +35,15 @@ Constraints:
 1 <= A.length <= 100
 1 <= A[i].length <= 1000
 '''
+#######################################################################
+class Solution:
+    def minDeletionSize(self, A: List[str]) -> int:
+        r=0
+        for col in zip(*A):
+            if sorted(col)!=list(col):
+                r+=1
+        return r
+#######################################################################
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         r=set()

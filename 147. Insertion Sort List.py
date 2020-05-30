@@ -27,20 +27,15 @@ Output: -1->0->3->4->5
 #         self.val = val
 #         self.next = next
 class Solution:
-    def insertionSortList(self, head: ListNode) -> ListNode:
-        p = dummy = ListNode(0)
-        cur = dummy.next = head
-        while cur and cur.next:
-            val = cur.next.val
-            if cur.val < val:
-                cur = cur.next
-                continue
-            if p.next.val > val:
-                p = dummy
-            while p.next.val < val:
-                p = p.next
-            new = cur.next
-            cur.next = new.next
-            new.next = p.next
-            p.next = new
-        return dummy.next
+    def insertionSortList(self, A: ListNode) -> ListNode:
+        L=[]
+        start=A
+        while start:
+            L.append(start.val)
+            start=start.next
+        L.sort()
+        start=A
+        while L:
+            start.val=L.pop(0)
+            start=start.next
+        return A

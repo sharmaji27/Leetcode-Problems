@@ -10,7 +10,7 @@ Input:
        / \   \  
       5   3   9 
 
-Output: [1, 3, 9]
+Output: [1, 3, 9] 
 '''
 # Definition for a binary tree node.
 # class TreeNode:

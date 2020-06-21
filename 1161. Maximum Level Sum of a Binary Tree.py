@@ -31,13 +31,12 @@ class Solution:
             q_temp = []
             c_s = 0
             while q:
-                if q[0].left:q_temp.append(q[0].left)
-                if q[0].right:q_temp.append(q[0].right)
                 x = q.pop(0)
+                if x.left:q_temp.append(x.left)
+                if x.right:q_temp.append(x.right)
                 c_s+=x.val
             if c_s>mx:
-                mx = c_s
-                ml = level
+                mx,ml = c_s,level
             q = q_temp
             level+=1
         return ml

@@ -14,6 +14,7 @@ A sudoku puzzle...
 
 ...and its solution numbers marked in red.
 
+
 Note:
 
 The given board contain only digits 1-9 and the character '.'.
